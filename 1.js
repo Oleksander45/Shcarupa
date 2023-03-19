@@ -18,7 +18,7 @@ function sum (){
 
 
     result=a+b;
-    document.getElementById('out').innerHTML=result;
+    document.getElementById('out-k').innerHTML=result;
 }
 
 function multiplicator() {
@@ -32,7 +32,7 @@ function multiplicator() {
 
 
     result=a*b;
-    document.getElementById('out').innerHTML=result;
+    document.getElementById('out-g').innerHTML=result;
 }
 function squa() {
     var a,b,result;
