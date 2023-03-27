@@ -32,7 +32,7 @@ function multiplicator() {
 
 
     result=a*b;
-    document.getElementById('out-g').innerHTML=result;
+    document.getElementById('out-g1').innerHTML=result;
 }
 function squa() {
     var a,b,result;
