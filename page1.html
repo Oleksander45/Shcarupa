@@ -13,18 +13,18 @@
 <body>
     <div class="header">
        
-        <a href="./ASIDENAME.html" ><img class="u"
+        <a href="#" title="" onclick="document.getElementById('menu').classList.toggle('active'); return false;"><img class="u"
         src="menu-burger.svg"
         alt="triangle with all three sides equal"
-        height="20px";
+        height="20PX";
         width="20px" /></a>
         <h1 class= "header-title">“Простейшие математические операции”</h1>
 
 </div>
-<aside class="side-bar">
+<aside id="menu" class="side-bar">
     <ul>
         <li>
-            <a href="./page1.html" class="nav1">Сумма двух чисел</a>
+            <a href="./page1.html" class="nav active">Сумма двух чисел</a>
         </li>
        
         <li>
@@ -45,10 +45,10 @@
         
 
         <div class="form">         
-            <label >Число a: </label><input  type="number" name="a_value" id="a-val">
+            <label for="a-val" >Число a: </label><input  type="number" name="a_value" id="a-val">
         </div>
         <div class="form">
-            <label >Число b: </label><input type="number" name="b_value" id="b-val">
+            <label for="b-val">Число b: </label><input type="number" name="b_value" id="b-val">
         </div> 
         <button class="but" onclick="sum()">Рассчитать</button>
 
