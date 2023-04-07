@@ -117,19 +117,42 @@ body {
 
 } 
    
+
+.real-estate {
    
-    /* height: 55px;
-    margin-left: 124px;
-    margin-top: 32px;
-    display: inline-flex;
-    align-items: center; */
+    height: 686px;
+    background:  #F5F5F5;
 }
 
-.REAL_ESTATE {
+.placat{
+    position: absolute;
+    width: 806px;
+    height: 761px;
+    top: 45px;
+    left: 638px;
+}
+
+.name_section {
+    width: 162px;
+    height: 50px;
+    margin-top: 32px;
+    text-align: center;
+    padding: 12px 24px;
    
-    height: 806px;
-    width: 1440px;
-} 
+   
+  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #69B99D;
+    background-color: #FFFFFF;}
+
+    h3{
+        margin: 0;
+    }
 
 
 
@@ -174,33 +197,12 @@ body {
 
 
 
-.name_head {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-    background-color: #FFFFFF;
-    width: 162px;
-    height: 50px;
-    left: 124px;
-    top: 152px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0.5px;
-    color: #69B99D;
+
 
 
 }
 
-.placat{
-    background: url(.png);
-    mix-blend-mode: normal;
-    float: right;
-    margin-top: -41px;
+
   
 }
 
