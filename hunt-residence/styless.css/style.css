@@ -122,6 +122,7 @@ body {
    
     height: 686px;
     background:  #F5F5F5;
+    
 }
 
 .placat{
@@ -135,9 +136,11 @@ body {
 .name_section {
     width: 162px;
     height: 50px;
-    margin-top: 32px;
-    text-align: center;
-    padding: 12px 24px;
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
    
    
   
@@ -150,36 +153,119 @@ body {
     color: #69B99D;
     background-color: #FFFFFF;}
 
-    h3{
+    h1, h3, h4{
         margin: 0;
     }
 
-
-
-/* .logo-text{
-    margin: 0 0 0 8px;
-    width: 67px;
-    height: 26px;
+    .title{
+        /* width: 605px;
+        height: 148px;
+        margin-top: 32px; */
+        /* justify-content: center;
+        align-items: center; */
+    }
+    
+    .title-slogan{
+        width: 605px;
+        height: 148px;
+        margin-top: 32px;
        
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 26px;
-    letter-spacing: 0.5px;
-    color: #4BA586;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 74px;
+        letter-spacing: 0.0025em;
+        
+        color: #1F2744;
+    }
 
-} */
+    .estate-article{
+        margin-top: 24px;
 
-.menu {
+        width: 502px;
+        height: 48px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+
+        letter-spacing: 0.0025em;
+
+        color: #73788C;
+    }
+
+
+    .estate-menu {
+        margin-top: 64px;
+        width: 751px;
+        height: 180px;
+        background-color: #69B99D;
+        
+    }
+    .estate-menu-buy{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        float: left;
+
+       
+        
+        width: 109px;
+        height: 56px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+
+        letter-spacing: 0.0025em;
+
+        color: #69B99D;
+                
+        background: #FEFEFF;
+    }
+
+    .estate-menu-rent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        float: left;
+       
+        
+        width: 109px;
+        height: 56px;
     
-    width: 531px;
-    height: 40px;
-    margin-left: 216px;
-    display: inline-flex;
-    justify-content: space-around;
-    
-}
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        
+        letter-spacing: 0.0025em;
+
+        color: #A6A6A6;
+
+        background: #f5f5f5;
+    }
+
+    .estate-menu-search{
+        display: block;
+       
+        height: 124px;
+
+        background: #FEFEFF;
+        
+
+        box-shadow: 35px 35px 65px rgba(146, 106, 120, 0.16);
+    }
+
 
 
 
@@ -191,43 +277,9 @@ body {
    
     
 
-}
 
 
 
-
-
-
-
-
-}
-
-
-  
-}
-
-.title{
-    width: 605px;
-    height: 148px;
-    justify-content: center;
-    align-items: center;
-}
-
-.title-slogan{
-    position: absolute;
-    width: 605px;
-    height: 148px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 74px;
-    letter-spacing: 0.0025em;
-    top: 234px;
-    left: 124px;
-
-       color: #1F2744;
-}
 
 main{
     background-color: #FEFEFF;
