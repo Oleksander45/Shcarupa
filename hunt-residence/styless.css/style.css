@@ -119,13 +119,17 @@ body {
    
 
 .real-estate {
-   
     height: 686px;
     background:  #F5F5F5;
-    
+}
+
+.real-estate .container {
+    background: url("./../images/bernard-hermant-KqOLr8OiQLU-unsplash 1.png") #F5F5F5 no-repeat;
+    background-position: 124px bottom;
 }
 
 .placat{
+    display: none;
     position: absolute;
     width: 806px;
     height: 761px;
