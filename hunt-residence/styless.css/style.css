@@ -170,19 +170,20 @@ body * {
         font-size: 64px;
         line-height: 74px;
         letter-spacing: 0.0025em;
+        margin-bottom: 24px;
         
         color: #1F2744;
     }
 
     .estate-article{
-        margin-top: 24px;
+       
 
         width: 502px;
         height: 48px;
         
         
         font-weight: 400;
-        font-size: 16px;
+       
         line-height: 24px;
         letter-spacing: 0.0025em;
 
@@ -274,51 +275,109 @@ body * {
  
         }
 
+.discover{
+    margin-top: 120px;  
+    height: 730px;}
 
+.var{
+    background:  #F5F5F5;
+}
 
+.section-title{
+    margin: 16px 0;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.5px;
 
+    color: #054457;
+}
 
-
-
-
+.table{
+    margin-top: 48px;
+    height: 480px;
+    
    
     
-
-
-
-
-
-main{
-    background-color: #FEFEFF;
+   
 }
 
-.discover {
-    width: 1196px;
-    height: 701px;
-    margin: 120px 122px;
-    background-color: black;
-    }
- .frame{
-     /* position: absolute; */
-     margin-left: 124px;
-      }   
-
-.discover-n{
-    margin-top:120px;
+.table-module{
+    margin-right: 34px;
+    width: 376px;
+    float: left;
+    border:1px ;
+    padding: 16px;
+    border-style: ridge;
+    border-width: 2px;
+    
 }
 
+.table-module-title{
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.0025em;
+    
+    color: #1F2744;
+}
 
+.table-module-place{
+    margin-top: 16px;
+    color: #A6A6A6;
+}
 
-.section-name {
-    position: absolute;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0.5px;
+.table-module-price{
+    margin-top: 16px;
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    float: left;
+
+    letter-spacing: 0.0025em;
+
     color: #69B99D;
 
+}
+
+.table-module-square{
+    margin-top: 16px;
+    float:left;
+    width: 152px;
+    height: 32px;
+    font-weight: 400;
+   
+    padding: 4px;
+    letter-spacing: 0.0025em;
+
+    color: #1F2744;
 
 }
+   
+   .table-module-button{
+    margin-top: 24px;
+    width: 344px;
+    height: 48px;
+    border: 1px solid #69B99D;
+    float:right;
+    text-align: center;
+    line-height: 48px;
+   }
+
+   .active{
+    text-decoration: none;
+    font-weight: 500;   
+    letter-spacing: 0.0025em;
+
+    color: #69B99D;
+
+   }
+
+
+.no_marg{
+    margin: 0;
+}
+
 
