@@ -12,43 +12,41 @@
     <title>dream residence</title>
 </head>
 <body>
-    <header class="header" title="header">
-        <div class="container">
+    <header class="bg-grey" title="header">
+        <div class="container clearfix">
         
             <div class="logo">
                 <img src="./images/Group 422.svg" alt="logo" width="115px" height="40px">
             </div>
-            <nav class="nav">
+            <nav class="top-nav">
           
                 <ul class="list-nav"> 
-                    <li class ="nav-li">
-                        <a href="#" class="list-nav-a ">Home</a>
+                    <li class ="selected">
+                        <a href="#" >Home</a>
                     </li>
                     <li class ="nav-li">
-                        <a href="#" class="list-nav-a ">Property</a>
+                        <a href="#" >Property</a>
                     </li>
                     <li class ="nav-li"> 
-                        <a href="#" class="list-nav-a ">About</a>
+                        <a href="#" >About</a>
                     </li>
                     <li  class ="nav-li">
-                        <a href="#" class="list-nav-a ">Service</a>
+                        <a href="#" >Service</a>
                     </li >
                     <li class ="nav-li">    
-                        <a href="#" class="list-nav-a ">Contact</a>
+                        <a href="#" >Contact</a>
                     </li>
                 </ul> 
             </nav> 
-            <div class ="registr" >
-                <a href="#" class="registr-but">Sign Up</a>
+            <div class ="buttons" >
+                <a href="#" class="transparent button">Sign Up</a>
+                <a href="#" title="Login" class="button">Login</a>
             </div> 
-            <button class="login-but" onclick="#">Login</button>                    
-        </div>
+            
     </header>
     <main>
         <section class="real-estate" title="real-estate">
-            <div class="placat">
-                <img src="./images/bernard-hermant-KqOLr8OiQLU-unsplash 1.png">
-            </div> 
+           
             <div class="container">
                 <div class="name_section"><h3>REAL ESTATE</h3></div>
                 <div class="title">
@@ -56,14 +54,46 @@
                 </div>
                 <h4 class="estate-article">Explore our range of beautiful properties with 
                     the addition of separate accommodation suitable for you</h4>
-                <div class="estate-menu">
-                    <div class="estate-menu-buy">Buy</div>
-                    <div class="estate-menu-rent">Rent</div>
-                    <div class="estate-menu-search">
-                        
+           
+                  
+                <a class="estate-menu buy" href="#">Buy</a>
+                <a class="estate-menu rent" href="#">Rent</a>
+
+                <div class="estate-menu-search">
+                    <div class="menu-search-module">
+                        <div>Location</div>
+                        <form action="#">
+                            <select class="select-search">
+                                <option >Bogor, Jawa Barat</option>
+                                <option >New York</option>
+                            </select>
+                        </form>                       
                     </div>
-                </div>
-            </div> 
+                    <div class="menu-search-module">
+                        <div>Type</div>
+                        <form action="#">
+                            <select class="select-search">
+                                <option >Home</option>
+                                <option >Flat</option>
+                            </select>
+                        </form>                       
+                    </div>
+                    <div class="menu-search-module">
+                        <div>Price Range</div>
+                        <form action="#">
+                            <select class="select-search">
+                                <option >$200-$350</option>
+                                <option >$400-$550</option>
+                            </select>
+                        </form>                       
+                    </div>
+                    <div >
+                        <a class="but-s" href="#" title="Search" >Search</a>
+                    </div>                 
+                </div>           
+                                    
+                              
+           </div> 
                            
         </section>
 
@@ -74,8 +104,7 @@
        
 
 
-  
-       
+
 
        
         
